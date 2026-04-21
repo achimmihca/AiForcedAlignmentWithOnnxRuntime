@@ -52,3 +52,15 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# Packages
+packages/
+
+# User settings
+*.sln.DotSettings.user
+
+# JetBrains Rider
+.idea/
+
+# AI model
+*.onnx
