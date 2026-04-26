@@ -1,5 +1,8 @@
+> [!WARNING]  
+> Consider to use [NeMo Forced Aligner](https://github.com/achimmihca/NeMoForcedAlignerWithOnnxRuntime) (NFA) as alternative to this wav2vec2 PoC.
+
 # AiForcedAlignmentWithOnnxRuntime
-Demo of running a forced aligner model with C# on OnnxRuntime, to find timestamps from given text and audio.
+Demo of running a wav2vec2 forced aligner model with C# on OnnxRuntime, to find timestamps from given text and audio.
 
 ## Prerequisites
 - Download the Wav2Vec2 ONNX model and place it `AiModels` folder (see [SOURCE.md](AiModels/SOURCE.md)).
